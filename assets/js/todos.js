@@ -14,7 +14,6 @@ $('ul').on("click", "li", function(){
 
 // Click on x to delete Todos
 $('ul').on("click", "span", function(event){
-  alert("you clicked on the span");
   $(this).parent().fadeOut(500, function(){
     $(this).remove();
   });
